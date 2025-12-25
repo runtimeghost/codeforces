@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a, b;
+
+    scanf("%d%d", &a, &b);
+
+    int years = 0;
+    while (a <= b)
+    {
+        years++;
+        a *= 3;
+        b *= 2;
+    }
+
+    printf("%d", years);
+
+    return 0;
+}
